@@ -1,0 +1,49 @@
+{
+  "name": "timeboxing",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "assert": "^2.0.0",
+    "axios": "^0.27.2",
+    "buffer": "^6.0.3",
+    "classnames": "^2.2.6",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "inspirational-quotes": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-sass": "^7.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "4.0.3",
+    "resolve-url-loader": "^5.0.0",
+    "stream": "^0.0.2",
+    "uuid": "3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "json-server-auth": "json-server-auth --watch db.json -r routes.json --port 5000",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^8.0.1",
+    "json-server-auth": "^2.1.0",
+    "react-test-renderer": "^16.8.6"
+  }
+}
